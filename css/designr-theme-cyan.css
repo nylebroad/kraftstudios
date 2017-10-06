@@ -9,8 +9,9 @@
     margin:0;
     margin-top:5px;
     padding:0;
-    width:126px;
-    height:90px;
+    width:150px;
+    height:63
+        px;
 	text-indent: 200%;
 	white-space: nowrap;
 	overflow: hidden;
@@ -383,8 +384,8 @@ header.jumbotron{
 .jumbotron .left-col p{
     display:inline-block;
     margin:0;
-    padding:18px 5px 12px 30px;
-    font-size:38px;
+    padding:18px 5px 12px 0px;
+    font-size:30px;
     font-weight:300;
     line-height:48px;
 }
@@ -424,7 +425,7 @@ header.jumbotron{
 
 #services{
     background:#fff;
-    color:#999;
+    color:#051000;
     padding:80px 0;
 }
 
@@ -531,13 +532,17 @@ header.jumbotron{
 ------------------------*/
 
 #about {
-    background:#1d9081;
+    background-image: url(../assets/Stock55.jpg);
+    background-position:center;
+    background-size:cover;
+    background-attachment: fixed;
     color:#fff;
     padding:80px 0;
 }
 
 #about h1 {
-    color:black;
+    font-family: 'Pacifico', cursive;
+    color:darkcyan;
     font-size:30px;
     line-height:40px;
     font-weight:600;
@@ -546,10 +551,12 @@ header.jumbotron{
 }
 
 #about p {
+    font-family: 'Pacifico', cursive;
     font-size:20px;
-    line-height:30px;
+    line-height:35px;
     font-weight:400;
     margin-bottom:42px;
+    color: burlywood;
 }
 
 #about a:hover{
@@ -562,8 +569,8 @@ header.jumbotron{
 }
 
 #about img {
-    box-shadow:5px 0px 0px 5px rgba(255,255,255,0.2),
-                -5px 0px 0px 5px rgba(255,255,255,0.2);
+    box-shadow:5px 0px 0px 5px rgba(2,225,450,0.2),
+                -5px 0px 0px 5px rgba(2,255,450,0.2);
 }
 
 /*-----------------------

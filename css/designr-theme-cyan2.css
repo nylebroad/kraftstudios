@@ -383,8 +383,8 @@ header.jumbotron{
 .jumbotron .left-col p{
     display:inline-block;
     margin:0;
-    padding:18px 5px 12px 30px;
-    font-size:38px;
+    padding:18px 5px 12px 0px;
+    font-size:30px;
     font-weight:300;
     line-height:48px;
 }
@@ -399,7 +399,7 @@ header.jumbotron{
     margin:0;
     padding:10px 30px 10px 5px;
     font-size:110px;
-    line-height:110px;
+    line-height:90px;
     font-weight:900;
     text-transform:uppercase;
 }
@@ -531,8 +531,7 @@ header.jumbotron{
 ------------------------*/
 
 #about {
-    background:#74C7D5;
-    color:#fff;
+    background-image: url(./assets/Stock.jpg);
     padding:80px 0;
 }
 
